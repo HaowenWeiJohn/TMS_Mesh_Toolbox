@@ -1,0 +1,741 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TriggerMarkerList coordinateSpace="RAS" isOnlineReading="true" startTime="16:54:30.982">
+    <!--All positions are saved in the coordinate system of the corresponding medical data.
+NIfTI image data are recommended using RAS system (x-axis increases from the left hand side to the right hand side of the patient,
+y-axis increases from the posterior side to the anterior side of the patient and z-axis increases from the feet toward the head of the patient).-->
+    <ResponseParameters selectedResponseChannel="0">
+        <responseDescription id="mepMax" maxValue="51200.0"
+            minValue="-51200.0" name="MEP Max" unit="uV"/>
+        <responseDescription id="mepMin" maxValue="51200.0"
+            minValue="-51200.0" name="MEP Min" unit="uV"/>
+        <responseDescription id="mepMaxTime" maxValue="100000.0"
+            minValue="0.0" name="MaxTime" unit="uS"/>
+        <responseDescription id="mepAmplitude" maxValue="51200.0"
+            minValue="-51200.0" name="MEP Amplitude" unit="uV"/>
+        <responseDescription id="valueA" maxValue="200.0" minValue="0.0"
+            name="Value A (di/dt)" unit="A/us"/>
+        <responseDescription id="amplitudeA" maxValue="100.0"
+            minValue="0.0" name="Amplitude A" unit="%"/>
+    </ResponseParameters>
+    <TriggerMarker color="#ffafaf" description="" recordingTime="138436"
+        selected="false" set="true" visibility="true">
+        <ResponseValues>
+            <Value key="valueA" response="68.0"/>
+            <Value key="mepMaxTime" response="NaN"/>
+            <Value key="mepAmplitude" response="NaN"/>
+            <Value key="mepMin" response="NaN"/>
+            <Value key="mepMax" response="NaN"/>
+            <Value key="amplitudeA" response="45.0"/>
+        </ResponseValues>
+        <Matrix4D data00="0.669158764709086"
+            data01="-0.5057796709153275" data02="-0.5443478309174106"
+            data03="-36.65444922772869" data10="-0.03676296830889092"
+            data11="-0.7541847150161656" data12="0.6555570064607666"
+            data13="32.503661224493754" data20="-0.7421429247098071"
+            data21="-0.4186805811683474" data22="-0.5232891544628123"
+            data23="77.57931750246519" data30="0.0" data31="0.0"
+            data32="0.0" data33="1.0"/>
+    </TriggerMarker>
+    <TriggerMarker color="#ffafaf" description="" recordingTime="147653"
+        selected="false" set="true" visibility="true">
+        <ResponseValues>
+            <Value key="valueA" response="68.0"/>
+            <Value key="mepMaxTime" response="NaN"/>
+            <Value key="mepAmplitude" response="NaN"/>
+            <Value key="mepMin" response="NaN"/>
+            <Value key="mepMax" response="NaN"/>
+            <Value key="amplitudeA" response="45.0"/>
+        </ResponseValues>
+        <Matrix4D data00="0.6762591097338221"
+            data01="-0.5016010358335894" data02="-0.5394091490777416"
+            data03="-36.56477333785579" data10="-0.0463225735825703"
+            data11="-0.7597771217032171" data12="0.6484482687687171"
+            data13="32.22606691199958" data20="-0.7351326740356398"
+            data21="-0.413554517498152" data22="-0.5370705962703273"
+            data23="76.7457567180958" data30="0.0" data31="0.0"
+            data32="0.0" data33="1.0"/>
+    </TriggerMarker>
+    <TriggerMarker color="#ffafaf" description="" recordingTime="155963"
+        selected="false" set="true" visibility="true">
+        <ResponseValues>
+            <Value key="valueA" response="68.0"/>
+            <Value key="mepMaxTime" response="NaN"/>
+            <Value key="mepAmplitude" response="NaN"/>
+            <Value key="mepMin" response="NaN"/>
+            <Value key="mepMax" response="NaN"/>
+            <Value key="amplitudeA" response="45.0"/>
+        </ResponseValues>
+        <Matrix4D data00="0.6704977739621383"
+            data01="-0.4984981617604129" data02="-0.549462740780297"
+            data03="-36.44037424289151" data10="-0.03517379476125665"
+            data11="-0.761137890441835" data12="0.6476178669310593"
+            data13="32.24431648134045" data20="-0.7410617551502704"
+            data21="-0.4149044228828266" data22="-0.5278814077028646"
+            data23="77.01157649999524" data30="0.0" data31="0.0"
+            data32="0.0" data33="1.0"/>
+    </TriggerMarker>
+    <TriggerMarker color="#ffafaf" description="" recordingTime="164172"
+        selected="false" set="true" visibility="true">
+        <ResponseValues>
+            <Value key="valueA" response="68.0"/>
+            <Value key="mepMaxTime" response="NaN"/>
+            <Value key="mepAmplitude" response="NaN"/>
+            <Value key="mepMin" response="NaN"/>
+            <Value key="mepMax" response="NaN"/>
+            <Value key="amplitudeA" response="45.0"/>
+        </ResponseValues>
+        <Matrix4D data00="0.6783380074950311"
+            data01="-0.49699920093936195" data02="-0.5410418734320833"
+            data03="-36.15106605165898" data10="-0.040046137988935915"
+            data11="-0.7603196004308337" data12="0.6482186197468103"
+            data13="32.155600647847734" data20="-0.7335740053828469"
+            data21="-0.418070408448056" data22="-0.535689536168323"
+            data23="76.65587762707975" data30="0.0" data31="0.0"
+            data32="0.0" data33="1.0"/>
+    </TriggerMarker>
+    <TriggerMarker color="#ffafaf" description="" recordingTime="185107"
+        selected="false" set="true" visibility="true">
+        <ResponseValues>
+            <Value key="valueA" response="68.0"/>
+            <Value key="mepMaxTime" response="NaN"/>
+            <Value key="mepAmplitude" response="NaN"/>
+            <Value key="mepMin" response="NaN"/>
+            <Value key="mepMax" response="NaN"/>
+            <Value key="amplitudeA" response="45.0"/>
+        </ResponseValues>
+        <Matrix4D data00="0.6726537773780852"
+            data01="-0.49247037212102934" data02="-0.5521382302616503"
+            data03="-36.013883243209506" data10="-0.0430899955805768"
+            data11="-0.771033218852993" data12="0.6352147862420688"
+            data13="32.09672403189495" data20="-0.7385979589833416"
+            data21="-0.4035189028566891" data22="-0.5399003120738812"
+            data23="76.43094052401389" data30="0.0" data31="0.0"
+            data32="0.0" data33="1.0"/>
+    </TriggerMarker>
+    <TriggerMarker color="#ffafaf" description="" recordingTime="190012"
+        selected="false" set="true" visibility="true">
+        <ResponseValues>
+            <Value key="valueA" response="68.0"/>
+            <Value key="mepMaxTime" response="NaN"/>
+            <Value key="mepAmplitude" response="NaN"/>
+            <Value key="mepMin" response="NaN"/>
+            <Value key="mepMax" response="NaN"/>
+            <Value key="amplitudeA" response="45.0"/>
+        </ResponseValues>
+        <Matrix4D data00="0.6721967935569655"
+            data01="-0.49633046177865336" data02="-0.5492855310902433"
+            data03="-36.11972587631505" data10="-0.04618349818765377"
+            data11="-0.7686018680140647" data12="0.63798534795339"
+            data13="32.07536739588562" data20="-0.7388677868534075"
+            data21="-0.4035025308701869" data22="-0.539599066302443"
+            data23="76.08671821673343" data30="0.0" data31="0.0"
+            data32="0.0" data33="1.0"/>
+    </TriggerMarker>
+    <TriggerMarker color="#ffafaf" description="" recordingTime="197076"
+        selected="false" set="true" visibility="true">
+        <ResponseValues>
+            <Value key="valueA" response="68.0"/>
+            <Value key="mepMaxTime" response="NaN"/>
+            <Value key="mepAmplitude" response="NaN"/>
+            <Value key="mepMin" response="NaN"/>
+            <Value key="mepMax" response="NaN"/>
+            <Value key="amplitudeA" response="45.0"/>
+        </ResponseValues>
+        <Matrix4D data00="0.6771235340748932"
+            data01="-0.49276071966652263" data02="-0.5463720528178059"
+            data03="-35.92809053055821" data10="-0.042565201332501024"
+            data11="-0.7675300241530809" data12="0.6394667254859945"
+            data13="32.03844374670574" data20="-0.7345228046712613"
+            data21="-0.4097759906607356" data22="-0.5407325718324744"
+            data23="75.97667898183875" data30="0.0" data31="0.0"
+            data32="0.0" data33="1.0"/>
+    </TriggerMarker>
+    <TriggerMarker color="#ffafaf" description="" recordingTime="221252"
+        selected="false" set="true" visibility="true">
+        <ResponseValues>
+            <Value key="valueA" response="59.0"/>
+            <Value key="mepMaxTime" response="NaN"/>
+            <Value key="mepAmplitude" response="NaN"/>
+            <Value key="mepMin" response="NaN"/>
+            <Value key="mepMax" response="NaN"/>
+            <Value key="amplitudeA" response="40.0"/>
+        </ResponseValues>
+        <Matrix4D data00="0.6778327957348014"
+            data01="-0.500293759125519" data02="-0.5386925520062654"
+            data03="-36.65069948540561" data10="-0.04139567274994449"
+            data11="-0.7575284753209881" data12="0.651442873424878"
+            data13="31.972526430606266" data20="-0.7340094749283181"
+            data21="-0.41928221240417457" data22="-0.5342034509974063"
+            data23="76.31226502635693" data30="0.0" data31="0.0"
+            data32="0.0" data33="1.0"/>
+    </TriggerMarker>
+    <TriggerMarker color="#ffafaf" description="" recordingTime="243093"
+        selected="false" set="true" visibility="true">
+        <ResponseValues>
+            <Value key="valueA" response="61.0"/>
+            <Value key="mepMaxTime" response="NaN"/>
+            <Value key="mepAmplitude" response="NaN"/>
+            <Value key="mepMin" response="NaN"/>
+            <Value key="mepMax" response="NaN"/>
+            <Value key="amplitudeA" response="40.0"/>
+        </ResponseValues>
+        <Matrix4D data00="0.6806345983211782"
+            data01="-0.48974872269075903" data02="-0.5447887049915872"
+            data03="-36.72858228845179" data10="-0.03427181486882197"
+            data11="-0.7641159008143031" data12="0.6440996302776576"
+            data13="32.299620752516475" data20="-0.7317608811416731"
+            data21="-0.419744064449979" data22="-0.5368919203016994"
+            data23="76.80469193724767" data30="0.0" data31="0.0"
+            data32="0.0" data33="1.0"/>
+    </TriggerMarker>
+    <TriggerMarker color="#ffafaf" description="" recordingTime="259508"
+        selected="false" set="true" visibility="true">
+        <ResponseValues>
+            <Value key="valueA" response="62.0"/>
+            <Value key="mepMaxTime" response="NaN"/>
+            <Value key="mepAmplitude" response="NaN"/>
+            <Value key="mepMin" response="NaN"/>
+            <Value key="mepMax" response="NaN"/>
+            <Value key="amplitudeA" response="42.0"/>
+        </ResponseValues>
+        <Matrix4D data00="0.6821353082460748"
+            data01="-0.49170729815863645" data02="-0.5411433224935046"
+            data03="-35.93557207650568" data10="-0.04057206053902934"
+            data11="-0.7643892105763839" data12="0.6434157162797413"
+            data13="32.313123370120636" data20="-0.7300452523271367"
+            data21="-0.41695780240893576" data22="-0.5413879033213255"
+            data23="76.69889402906406" data30="0.0" data31="0.0"
+            data32="0.0" data33="1.0"/>
+    </TriggerMarker>
+    <TriggerMarker color="#ffafaf" description="" recordingTime="266564"
+        selected="false" set="true" visibility="true">
+        <ResponseValues>
+            <Value key="valueA" response="62.0"/>
+            <Value key="mepMaxTime" response="NaN"/>
+            <Value key="mepAmplitude" response="NaN"/>
+            <Value key="mepMin" response="NaN"/>
+            <Value key="mepMax" response="NaN"/>
+            <Value key="amplitudeA" response="42.0"/>
+        </ResponseValues>
+        <Matrix4D data00="0.6792263504781295"
+            data01="-0.489760014376757" data02="-0.5465596487399887"
+            data03="-35.7896263610229" data10="-0.0362651024759742"
+            data11="-0.766211843428887" data12="0.6415177392938196"
+            data13="32.148888862141604" data20="-0.732991926050695"
+            data21="-0.4159270318264071" data22="-0.5382084141273773"
+            data23="76.7603322075326" data30="0.0" data31="0.0"
+            data32="0.0" data33="1.0"/>
+    </TriggerMarker>
+    <TriggerMarker color="#ffafaf" description="" recordingTime="278286"
+        selected="false" set="true" visibility="true">
+        <ResponseValues>
+            <Value key="valueA" response="65.0"/>
+            <Value key="mepMaxTime" response="NaN"/>
+            <Value key="mepAmplitude" response="NaN"/>
+            <Value key="mepMin" response="NaN"/>
+            <Value key="mepMax" response="NaN"/>
+            <Value key="amplitudeA" response="43.0"/>
+        </ResponseValues>
+        <Matrix4D data00="0.6800091684170754"
+            data01="-0.49294548174215663" data02="-0.5427450558518723"
+            data03="-36.24083228916999" data10="-0.037285937258966284"
+            data11="-0.7625365679010256" data12="0.6458542051031224"
+            data13="32.09304978898116" data20="-0.7322412187963601"
+            data21="-0.4189542306704387" data22="-0.5369171843514631"
+            data23="76.4183769076553" data30="0.0" data31="0.0"
+            data32="0.0" data33="1.0"/>
+    </TriggerMarker>
+    <TriggerMarker color="#ffafaf" description="" recordingTime="284602"
+        selected="false" set="true" visibility="true">
+        <ResponseValues>
+            <Value key="valueA" response="65.0"/>
+            <Value key="mepMaxTime" response="NaN"/>
+            <Value key="mepAmplitude" response="NaN"/>
+            <Value key="mepMin" response="NaN"/>
+            <Value key="mepMax" response="NaN"/>
+            <Value key="amplitudeA" response="43.0"/>
+        </ResponseValues>
+        <Matrix4D data00="0.6742257648476698"
+            data01="-0.5071678064206377" data02="-0.5367313914807125"
+            data03="-35.99953799944421" data10="-0.04225000478126423"
+            data11="-0.7521007930931418" data12="0.6576013127871775"
+            data13="31.893227954710326" data20="-0.7372344997124908"
+            data21="-0.4207200561108472" data22="-0.5285452480862238"
+            data23="76.22940699705859" data30="0.0" data31="0.0"
+            data32="0.0" data33="1.0"/>
+    </TriggerMarker>
+    <TriggerMarker color="#ffafaf" description="" recordingTime="293604"
+        selected="false" set="true" visibility="true">
+        <ResponseValues>
+            <Value key="valueA" response="65.0"/>
+            <Value key="mepMaxTime" response="NaN"/>
+            <Value key="mepAmplitude" response="NaN"/>
+            <Value key="mepMin" response="NaN"/>
+            <Value key="mepMax" response="NaN"/>
+            <Value key="amplitudeA" response="43.0"/>
+        </ResponseValues>
+        <Matrix4D data00="0.6770363453245717"
+            data01="-0.4997947333964764" data02="-0.5401664531459897"
+            data03="-36.06168938294288" data10="-0.046255176393172226"
+            data11="-0.761436004160271" data12="0.646551201182785"
+            data13="31.890274278723936" data20="-0.7344624097202047"
+            data21="-0.4127629120490486" data22="-0.53865065921282"
+            data23="75.78716275860657" data30="0.0" data31="0.0"
+            data32="0.0" data33="1.0"/>
+    </TriggerMarker>
+    <TriggerMarker color="#ffafaf" description="" recordingTime="351977"
+        selected="false" set="true" visibility="true">
+        <ResponseValues>
+            <Value key="valueA" response="66.0"/>
+            <Value key="mepMaxTime" response="NaN"/>
+            <Value key="mepAmplitude" response="NaN"/>
+            <Value key="mepMin" response="NaN"/>
+            <Value key="mepMax" response="NaN"/>
+            <Value key="amplitudeA" response="44.0"/>
+        </ResponseValues>
+        <Matrix4D data00="0.679192818802293"
+            data01="-0.2816595224309788" data02="-0.677678832149541"
+            data03="-29.171161383085163" data10="-0.1986848711276974"
+            data11="-0.9594532709447675" data12="0.1996429665442134"
+            data13="50.70413374541391" data20="-0.7064736428944696"
+            data21="-9.515931676385425E-4" data22="-0.7076564545018138"
+            data23="74.0152738648772" data30="0.0" data31="0.0"
+            data32="0.0" data33="1.0"/>
+    </TriggerMarker>
+    <TriggerMarker color="#ffafaf" description="" recordingTime="359222"
+        selected="false" set="true" visibility="true">
+        <ResponseValues>
+            <Value key="valueA" response="66.0"/>
+            <Value key="mepMaxTime" response="NaN"/>
+            <Value key="mepAmplitude" response="NaN"/>
+            <Value key="mepMin" response="NaN"/>
+            <Value key="mepMax" response="NaN"/>
+            <Value key="amplitudeA" response="44.0"/>
+        </ResponseValues>
+        <Matrix4D data00="0.6473492697604497"
+            data01="-0.287708060722031" data02="-0.7057250357146164"
+            data03="-30.861500840840847" data10="-0.15210513170906512"
+            data11="-0.9560967653141464" data12="0.2502555405217029"
+            data13="41.55313764824609" data20="-0.7467849644620573"
+            data21="-0.054661489639506955" data22="-0.6627285792102297"
+            data23="73.95221068408034" data30="0.0" data31="0.0"
+            data32="0.0" data33="1.0"/>
+    </TriggerMarker>
+    <TriggerMarker color="#ffafaf" description="" recordingTime="364443"
+        selected="false" set="true" visibility="true">
+        <ResponseValues>
+            <Value key="valueA" response="66.0"/>
+            <Value key="mepMaxTime" response="NaN"/>
+            <Value key="mepAmplitude" response="NaN"/>
+            <Value key="mepMin" response="NaN"/>
+            <Value key="mepMax" response="NaN"/>
+            <Value key="amplitudeA" response="44.0"/>
+        </ResponseValues>
+        <Matrix4D data00="0.6378628606880615"
+            data01="-0.29277964101739673" data02="-0.7123160840686756"
+            data03="-33.274809211996555" data10="-0.11948335855583087"
+            data11="-0.9513335217670496" data12="0.28402712591033846"
+            data13="31.018828680874137" data20="-0.7608139383879785"
+            data21="-0.0960612462463023" data22="-0.6418080234669445"
+            data23="73.85197414992211" data30="0.0" data31="0.0"
+            data32="0.0" data33="1.0"/>
+    </TriggerMarker>
+    <TriggerMarker color="#ffafaf" description="" recordingTime="370694"
+        selected="false" set="true" visibility="true">
+        <ResponseValues>
+            <Value key="valueA" response="66.0"/>
+            <Value key="mepMaxTime" response="NaN"/>
+            <Value key="mepAmplitude" response="NaN"/>
+            <Value key="mepMin" response="NaN"/>
+            <Value key="mepMax" response="NaN"/>
+            <Value key="amplitudeA" response="44.0"/>
+        </ResponseValues>
+        <Matrix4D data00="0.6312379636785157"
+            data01="-0.2925134543475648" data02="-0.7182950697926149"
+            data03="-34.21968391854989" data10="-0.08704425223385143"
+            data11="-0.9470049862990159" data12="0.30915715927271026"
+            data13="23.195844676515662" data20="-0.7706719317684869"
+            data21="-0.1326300493937076" data22="-0.6232554361044693"
+            data23="74.10118913456554" data30="0.0" data31="0.0"
+            data32="0.0" data33="1.0"/>
+    </TriggerMarker>
+    <TriggerMarker color="#ffafaf" description="" recordingTime="376592"
+        selected="false" set="true" visibility="true">
+        <ResponseValues>
+            <Value key="valueA" response="66.0"/>
+            <Value key="mepMaxTime" response="NaN"/>
+            <Value key="mepAmplitude" response="NaN"/>
+            <Value key="mepMin" response="NaN"/>
+            <Value key="mepMax" response="NaN"/>
+            <Value key="amplitudeA" response="44.0"/>
+        </ResponseValues>
+        <Matrix4D data00="0.6096456417973848"
+            data01="-0.29054943933138794" data02="-0.7374289417897484"
+            data03="-35.410719251165226" data10="-0.04759760924517514"
+            data11="-0.9420776400062242" data12="0.3318319111265878"
+            data13="14.586597245691394" data20="-0.7911731090469869"
+            data21="-0.16720936861311392" data22="-0.5881958585508786"
+            data23="73.89645812011884" data30="0.0" data31="0.0"
+            data32="0.0" data33="1.0"/>
+    </TriggerMarker>
+    <TriggerMarker color="#ffafaf" description="" recordingTime="382652"
+        selected="false" set="true" visibility="true">
+        <ResponseValues>
+            <Value key="valueA" response="68.0"/>
+            <Value key="mepMaxTime" response="NaN"/>
+            <Value key="mepAmplitude" response="NaN"/>
+            <Value key="mepMin" response="NaN"/>
+            <Value key="mepMax" response="NaN"/>
+            <Value key="amplitudeA" response="44.0"/>
+        </ResponseValues>
+        <Matrix4D data00="0.6100277072777744"
+            data01="-0.2883481029733012" data02="-0.7379688667836616"
+            data03="-40.62032605626257" data10="-0.027683969287867427"
+            data11="-0.9385546505300749" data12="0.34383898308609306"
+            data13="14.51124097137992" data20="-0.7918183343891019"
+            data21="-0.1893330926090539" data22="-0.5805628181731939"
+            data23="70.49914603416394" data30="0.0" data31="0.0"
+            data32="0.0" data33="1.0"/>
+    </TriggerMarker>
+    <TriggerMarker color="#ffafaf" description="" recordingTime="388187"
+        selected="false" set="true" visibility="true">
+        <ResponseValues>
+            <Value key="valueA" response="66.0"/>
+            <Value key="mepMaxTime" response="NaN"/>
+            <Value key="mepAmplitude" response="NaN"/>
+            <Value key="mepMin" response="NaN"/>
+            <Value key="mepMax" response="NaN"/>
+            <Value key="amplitudeA" response="44.0"/>
+        </ResponseValues>
+        <Matrix4D data00="0.6124275448478969"
+            data01="-0.31510734995114226" data02="-0.7248996619351455"
+            data03="-40.06600134662397" data10="-0.05421841176590758"
+            data11="-0.931614392009771" data12="0.3591582492177923"
+            data13="23.839515421683387" data20="-0.7885635837980991"
+            data21="-0.18066998135378143" data22="-0.5876780510623689"
+            data23="70.47689721584811" data30="0.0" data31="0.0"
+            data32="0.0" data33="1.0"/>
+    </TriggerMarker>
+    <TriggerMarker color="#ffafaf" description="" recordingTime="393718"
+        selected="false" set="true" visibility="true">
+        <ResponseValues>
+            <Value key="valueA" response="66.0"/>
+            <Value key="mepMaxTime" response="NaN"/>
+            <Value key="mepAmplitude" response="NaN"/>
+            <Value key="mepMin" response="NaN"/>
+            <Value key="mepMax" response="NaN"/>
+            <Value key="amplitudeA" response="44.0"/>
+        </ResponseValues>
+        <Matrix4D data00="0.6246427382486938"
+            data01="-0.34405173467903133" data02="-0.7009461939007056"
+            data03="-38.99957790825239" data10="-0.07666396101785505"
+            data11="-0.9203226447897341" data12="0.3834117628537809"
+            data13="33.83759429977714" data20="-0.7770584276362934"
+            data21="-0.1857696064428751" data22="-0.6012865928056541"
+            data23="70.68150907618443" data30="0.0" data31="0.0"
+            data32="0.0" data33="1.0"/>
+    </TriggerMarker>
+    <TriggerMarker color="#ffafaf" description="" recordingTime="397390"
+        selected="false" set="true" visibility="true">
+        <ResponseValues>
+            <Value key="valueA" response="66.0"/>
+            <Value key="mepMaxTime" response="NaN"/>
+            <Value key="mepAmplitude" response="NaN"/>
+            <Value key="mepMin" response="NaN"/>
+            <Value key="mepMax" response="NaN"/>
+            <Value key="amplitudeA" response="44.0"/>
+        </ResponseValues>
+        <Matrix4D data00="0.6319962917874188"
+            data01="-0.37083601539348143" data02="-0.6804345515654321"
+            data03="-37.62458521328511" data10="-0.09849229620527744"
+            data11="-0.909351662856117" data12="0.40411466560747306"
+            data13="42.16221053849394" data20="-0.7686415268935036"
+            data21="-0.1883880172885568" data22="-0.6112528120073746"
+            data23="70.65410072872155" data30="0.0" data31="0.0"
+            data32="0.0" data33="1.0"/>
+    </TriggerMarker>
+    <TriggerMarker color="#ffafaf" description="" recordingTime="400886"
+        selected="false" set="true" visibility="true">
+        <ResponseValues>
+            <Value key="valueA" response="66.0"/>
+            <Value key="mepMaxTime" response="NaN"/>
+            <Value key="mepAmplitude" response="NaN"/>
+            <Value key="mepMin" response="NaN"/>
+            <Value key="mepMax" response="NaN"/>
+            <Value key="amplitudeA" response="44.0"/>
+        </ResponseValues>
+        <Matrix4D data00="0.6389094121320342"
+            data01="-0.3883174412053802" data02="-0.6640128335934061"
+            data03="-35.35641787741929" data10="-0.13151285619237157"
+            data11="-0.9056202525267939" data12="0.40306952514593647"
+            data13="52.37802400021428" data20="-0.7578969896873604"
+            data21="-0.17020645787088162" data22="-0.6297067809336538"
+            data23="70.38915070142141" data30="0.0" data31="0.0"
+            data32="0.0" data33="1.0"/>
+    </TriggerMarker>
+    <TriggerMarker color="#ffafaf" description="" recordingTime="404316"
+        selected="false" set="true" visibility="true">
+        <ResponseValues>
+            <Value key="valueA" response="66.0"/>
+            <Value key="mepMaxTime" response="NaN"/>
+            <Value key="mepAmplitude" response="NaN"/>
+            <Value key="mepMin" response="NaN"/>
+            <Value key="mepMax" response="NaN"/>
+            <Value key="amplitudeA" response="44.0"/>
+        </ResponseValues>
+        <Matrix4D data00="0.6486290013774112"
+            data01="-0.37510793044296115" data02="-0.6622112060151187"
+            data03="-41.93691856713293" data10="-0.13084778838393035"
+            data11="-0.9120889713074903" data12="0.388486533840409"
+            data13="51.99382863909673" data20="-0.7497389526550112"
+            data21="-0.16533895856421627" data22="-0.6407056687229509"
+            data23="64.85147083435618" data30="0.0" data31="0.0"
+            data32="0.0" data33="1.0"/>
+    </TriggerMarker>
+    <TriggerMarker color="#ffafaf" description="" recordingTime="408950"
+        selected="false" set="true" visibility="true">
+        <ResponseValues>
+            <Value key="valueA" response="66.0"/>
+            <Value key="mepMaxTime" response="NaN"/>
+            <Value key="mepAmplitude" response="NaN"/>
+            <Value key="mepMin" response="NaN"/>
+            <Value key="mepMax" response="NaN"/>
+            <Value key="amplitudeA" response="44.0"/>
+        </ResponseValues>
+        <Matrix4D data00="0.6428077480555611"
+            data01="-0.37418497838887316" data02="-0.6683642411478006"
+            data03="-43.16953869502508" data10="-0.11872103709629514"
+            data11="-0.9106552023723534" data12="0.39565057260184305"
+            data13="43.648133727693306" data20="-0.7567235110975052"
+            data21="-0.17498474847113038" data22="-0.6298228508175745"
+            data23="65.61992265330176" data30="0.0" data31="0.0"
+            data32="0.0" data33="1.0"/>
+    </TriggerMarker>
+    <TriggerMarker color="#ffafaf" description="" recordingTime="413518"
+        selected="false" set="true" visibility="true">
+        <ResponseValues>
+            <Value key="valueA" response="66.0"/>
+            <Value key="mepMaxTime" response="NaN"/>
+            <Value key="mepAmplitude" response="NaN"/>
+            <Value key="mepMin" response="NaN"/>
+            <Value key="mepMax" response="NaN"/>
+            <Value key="amplitudeA" response="44.0"/>
+        </ResponseValues>
+        <Matrix4D data00="0.6224324045990425"
+            data01="-0.3523925945411706" data02="-0.6988040080157357"
+            data03="-44.98429017173627" data10="-0.050397587043556624"
+            data11="-0.90905643359277" data12="0.41352891599625985"
+            data13="35.233420662003496" data20="-0.7810042672908397"
+            data21="-0.22218357377942405" data22="-0.5836064381219266"
+            data23="66.96853332022434" data30="0.0" data31="0.0"
+            data32="0.0" data33="1.0"/>
+    </TriggerMarker>
+    <TriggerMarker color="#ffafaf" description="" recordingTime="428305"
+        selected="false" set="true" visibility="true">
+        <ResponseValues>
+            <Value key="valueA" response="44.0"/>
+            <Value key="mepMaxTime" response="NaN"/>
+            <Value key="mepAmplitude" response="NaN"/>
+            <Value key="mepMin" response="NaN"/>
+            <Value key="mepMax" response="NaN"/>
+            <Value key="amplitudeA" response="30.0"/>
+        </ResponseValues>
+        <Matrix4D data00="0.7261226906334878"
+            data01="-0.388230468231624" data02="-0.5674004034211482"
+            data03="-46.730054664833204" data10="-0.03134635435899452"
+            data11="-0.843105212884236" data12="0.5367599856495178"
+            data13="24.086804957221105" data20="-0.6867921958891408"
+            data21="-0.3719824991350052" data22="-0.6243923254826977"
+            data23="65.31310331498685" data30="0.0" data31="0.0"
+            data32="0.0" data33="1.0"/>
+    </TriggerMarker>
+    <TriggerMarker color="#ffafaf" description="" recordingTime="432190"
+        selected="false" set="true" visibility="true">
+        <ResponseValues>
+            <Value key="valueA" response="44.0"/>
+            <Value key="mepMaxTime" response="NaN"/>
+            <Value key="mepAmplitude" response="NaN"/>
+            <Value key="mepMin" response="NaN"/>
+            <Value key="mepMax" response="NaN"/>
+            <Value key="amplitudeA" response="30.0"/>
+        </ResponseValues>
+        <Matrix4D data00="0.701379064867609" data01="-0.368379226793103"
+            data02="-0.6101760617399623" data03="-49.56084303160549"
+            data10="0.026527853657449196" data11="-0.8419763487462932"
+            data12="0.5388160862668494" data13="15.058975561836121"
+            data20="-0.7122600325958937" data21="-0.39411070412627924"
+            data22="-0.5807865981126983" data23="65.02481594710248"
+            data30="0.0" data31="0.0" data32="0.0" data33="1.0"/>
+    </TriggerMarker>
+    <TriggerMarker color="#ffafaf" description="" recordingTime="434973"
+        selected="false" set="true" visibility="true">
+        <ResponseValues>
+            <Value key="valueA" response="45.0"/>
+            <Value key="mepMaxTime" response="NaN"/>
+            <Value key="mepAmplitude" response="NaN"/>
+            <Value key="mepMin" response="NaN"/>
+            <Value key="mepMax" response="NaN"/>
+            <Value key="amplitudeA" response="30.0"/>
+        </ResponseValues>
+        <Matrix4D data00="0.7096321699778666"
+            data01="-0.3472777137070639" data02="-0.6130172626902944"
+            data03="-55.92980378765097" data10="0.044048356466679595"
+            data11="-0.8464987466422358" data12="0.530536903228334"
+            data13="13.463045663374459" data20="-0.7031726083164014"
+            data21="-0.40349455133486123" data22="-0.5854145722631015"
+            data23="59.61459622316439" data30="0.0" data31="0.0"
+            data32="0.0" data33="1.0"/>
+    </TriggerMarker>
+    <TriggerMarker color="#ffafaf" description="" recordingTime="438868"
+        selected="false" set="true" visibility="true">
+        <ResponseValues>
+            <Value key="valueA" response="44.0"/>
+            <Value key="mepMaxTime" response="NaN"/>
+            <Value key="mepAmplitude" response="NaN"/>
+            <Value key="mepMin" response="NaN"/>
+            <Value key="mepMax" response="NaN"/>
+            <Value key="amplitudeA" response="30.0"/>
+        </ResponseValues>
+        <Matrix4D data00="0.7013811060031109"
+            data01="-0.3541302539069036" data02="-0.6185204550131673"
+            data03="-57.15245073995635" data10="0.04160561256459666"
+            data11="-0.84596393725753" data12="0.5315310298777232"
+            data13="23.052038898569464" data20="-0.7115087933434049"
+            data21="-0.39855743122865017" data22="-0.5786349945064178"
+            data23="60.35324340551527" data30="0.0" data31="0.0"
+            data32="0.0" data33="1.0"/>
+    </TriggerMarker>
+    <TriggerMarker color="#ffafaf" description="" recordingTime="442068"
+        selected="false" set="true" visibility="true">
+        <ResponseValues>
+            <Value key="valueA" response="44.0"/>
+            <Value key="mepMaxTime" response="NaN"/>
+            <Value key="mepAmplitude" response="NaN"/>
+            <Value key="mepMin" response="NaN"/>
+            <Value key="mepMax" response="NaN"/>
+            <Value key="amplitudeA" response="30.0"/>
+        </ResponseValues>
+        <Matrix4D data00="0.6897564433642568"
+            data01="-0.37259303810045363" data02="-0.6207270317067268"
+            data03="-56.82858710523598" data10="0.029919500113739228"
+            data11="-0.8419478025002147" data12="0.5386281578908425"
+            data13="34.57918226408759" data20="-0.7233480790361675"
+            data21="-0.3901152354356498" data22="-0.5696220068875082"
+            data23="62.314674251860225" data30="0.0" data31="0.0"
+            data32="0.0" data33="1.0"/>
+    </TriggerMarker>
+    <TriggerMarker color="#ffafaf" description="" recordingTime="445084"
+        selected="false" set="true" visibility="true">
+        <ResponseValues>
+            <Value key="valueA" response="44.0"/>
+            <Value key="mepMaxTime" response="NaN"/>
+            <Value key="mepAmplitude" response="NaN"/>
+            <Value key="mepMin" response="NaN"/>
+            <Value key="mepMax" response="NaN"/>
+            <Value key="amplitudeA" response="30.0"/>
+        </ResponseValues>
+        <Matrix4D data00="0.6864927367536505"
+            data01="-0.3813282162285374" data02="-0.6190580149729056"
+            data03="-58.96534855291482" data10="0.031001775804625042"
+            data11="-0.835269754484179" data12="0.5488894598647787"
+            data13="43.28964902587258" data20="-0.726417871676621"
+            data21="-0.39601709655222056" data22="-0.5616082682412237"
+            data23="61.78761997093559" data30="0.0" data31="0.0"
+            data32="0.0" data33="1.0"/>
+    </TriggerMarker>
+    <TriggerMarker color="#ffafaf" description="" recordingTime="447690"
+        selected="false" set="true" visibility="true">
+        <ResponseValues>
+            <Value key="valueA" response="45.0"/>
+            <Value key="mepMaxTime" response="NaN"/>
+            <Value key="mepAmplitude" response="NaN"/>
+            <Value key="mepMin" response="NaN"/>
+            <Value key="mepMax" response="NaN"/>
+            <Value key="amplitudeA" response="30.0"/>
+        </ResponseValues>
+        <Matrix4D data00="0.6928307452002073"
+            data01="-0.3754667234070575" data02="-0.6155478677101011"
+            data03="-58.83609904319414" data10="0.019329895325741253"
+            data11="-0.8436878242327142" data12="0.536382409957041"
+            data13="50.37634206936666" data20="-0.7207640341853772"
+            data21="-0.38354201096958773" data22="-0.5773072077926824"
+            data23="62.46930844543154" data30="0.0" data31="0.0"
+            data32="0.0" data33="1.0"/>
+    </TriggerMarker>
+    <TriggerMarker color="#ffafaf" description="" recordingTime="463284"
+        selected="false" set="true" visibility="true">
+        <ResponseValues>
+            <Value key="valueA" response="44.0"/>
+            <Value key="mepMaxTime" response="NaN"/>
+            <Value key="mepAmplitude" response="NaN"/>
+            <Value key="mepMin" response="NaN"/>
+            <Value key="mepMax" response="NaN"/>
+            <Value key="amplitudeA" response="30.0"/>
+        </ResponseValues>
+        <Matrix4D data00="0.6237275504760202"
+            data01="-0.16243410339965011" data02="-0.764530013157431"
+            data03="-35.87381131273925" data10="0.6441273936720873"
+            data11="-0.44720273518222314" data12="0.6205132154558095"
+            data13="-54.84749512943881" data20="-0.4427085719601024"
+            data21="-0.8795179997514865" data22="-0.17431077022019215"
+            data23="31.449173334886375" data30="0.0" data31="0.0"
+            data32="0.0" data33="1.0"/>
+    </TriggerMarker>
+    <TriggerMarker color="#ffafaf" description="" recordingTime="472115"
+        selected="false" set="true" visibility="true">
+        <ResponseValues>
+            <Value key="valueA" response="44.0"/>
+            <Value key="mepMaxTime" response="NaN"/>
+            <Value key="mepAmplitude" response="NaN"/>
+            <Value key="mepMin" response="NaN"/>
+            <Value key="mepMax" response="NaN"/>
+            <Value key="amplitudeA" response="30.0"/>
+        </ResponseValues>
+        <Matrix4D data00="-0.8209920810582472"
+            data01="0.18435714302475242" data02="-0.5403323702279162"
+            data03="84.23754427101676" data10="-0.2965780468295646"
+            data11="-0.9464166566224854" data12="0.12771686602401086"
+            data13="45.64302941888117" data20="-0.48784022859859294"
+            data21="0.26510861838873834" data22="0.8316874145239933"
+            data23="24.469288440388084" data30="0.0" data31="0.0"
+            data32="0.0" data33="1.0"/>
+    </TriggerMarker>
+    <TriggerMarker color="#ffafaf" description="" recordingTime="475837"
+        selected="false" set="true" visibility="true">
+        <ResponseValues>
+            <Value key="valueA" response="45.0"/>
+            <Value key="mepMaxTime" response="NaN"/>
+            <Value key="mepAmplitude" response="NaN"/>
+            <Value key="mepMin" response="NaN"/>
+            <Value key="mepMax" response="NaN"/>
+            <Value key="amplitudeA" response="30.0"/>
+        </ResponseValues>
+        <Matrix4D data00="-0.8443249185098782"
+            data01="0.045417539990779715" data02="-0.5338549143298033"
+            data03="87.74678054756187" data10="-0.1334522298084556"
+            data11="-0.9827995535492672" data12="0.12745167873402294"
+            data13="16.18559573815861" data20="-0.5188972199309289"
+            data21="0.17885937245264907" data22="0.8358847950186711"
+            data23="28.94499691014717" data30="0.0" data31="0.0"
+            data32="0.0" data33="1.0"/>
+    </TriggerMarker>
+    <TriggerMarker color="#ffafaf" description="" recordingTime="478323"
+        selected="false" set="true" visibility="true">
+        <ResponseValues>
+            <Value key="valueA" response="44.0"/>
+            <Value key="mepMaxTime" response="NaN"/>
+            <Value key="mepAmplitude" response="NaN"/>
+            <Value key="mepMin" response="NaN"/>
+            <Value key="mepMax" response="NaN"/>
+            <Value key="amplitudeA" response="30.0"/>
+        </ResponseValues>
+        <Matrix4D data00="-0.8421423550467052"
+            data01="-0.17891419488754678" data02="-0.5086278477048468"
+            data03="85.69513386092052" data10="0.07336217871664624"
+            data11="-0.9725502744783125" data12="0.2206360738928265"
+            data13="-12.69180927132902" data20="-0.53416342754542"
+            data21="0.14849914894246047" data22="0.8321861319398618"
+            data23="31.95004712428335" data30="0.0" data31="0.0"
+            data32="0.0" data33="1.0"/>
+    </TriggerMarker>
+</TriggerMarkerList>
