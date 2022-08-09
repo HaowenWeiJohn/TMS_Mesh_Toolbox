@@ -59,9 +59,9 @@ class STLModel:
         if self.view_widget and self.stl_model:
             self.view_widget.addItem(self.stl_model)
 
-    def transform(self, transform_matrix):
+    def transform(self, transform_matrix, local=True):
         tr = QMatrix4x4(transform_matrix.flatten())
-        self.stl_model.applyTransform(tr=tr, local=True)
+        self.stl_model.applyTransform(tr=tr, local=local)
 
     def scale(self, dx, dy, dz, local=False):
         self.stl_model.scale(x=dx, y=dy, z=dz, local=local)
@@ -74,7 +74,7 @@ class STLModel:
         if self.view_widget and self.stl_model:  # gl.GLViewWidget
             self.view_widget.removeItem(self.stl_model)
 
-    def set_all(self, stl_file_path, view_widget, color=(0, 0, 0, 1), remove_previous_model=True, smooth=True,
+    def set_all(self, stl_file_path, view_widget, color=(1, 1, 1, 1), remove_previous_model=True, smooth=True,
                 drawFaces=True,
                 drawEdges=True, edgeColor=(0, 0, 0, 1)):
         if remove_previous_model:
