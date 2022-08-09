@@ -74,7 +74,8 @@ class STLModel:
         if self.view_widget and self.stl_model:  # gl.GLViewWidget
             self.view_widget.removeItem(self.stl_model)
 
-    def set_all(self, stl_file_path, view_widget, remove_previous_model=True, smooth=True, drawFaces=True,
+    def set_all(self, stl_file_path, view_widget, color=(0, 0, 0, 1), remove_previous_model=True, smooth=True,
+                drawFaces=True,
                 drawEdges=True, edgeColor=(0, 0, 0, 1)):
         if remove_previous_model:
             self.remove_stl()
@@ -82,5 +83,5 @@ class STLModel:
         self.set_stl_file_path(stl_file_path)
         self.set_view_widget(view_widget)
         self.load_stl()
-        self.create_mesh_data(smooth=smooth, drawFaces=drawFaces, drawEdges=drawEdges, edgeColor=edgeColor)
+        self.create_mesh_data(color=color, smooth=smooth, drawFaces=drawFaces, drawEdges=drawEdges, edgeColor=edgeColor)
         self.set_stl()

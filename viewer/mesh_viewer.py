@@ -1,4 +1,5 @@
 import copy
+import random
 
 import pyqtgraph.opengl as gl
 
@@ -16,7 +17,7 @@ from pathlib import Path
 from archive.STLModel import STLModel
 import pickle
 import scipy.io
-from utils.stl_utils import loadSTL
+from utils.stl_utils import loadSTL, mapper
 
 
 class MainWindow(QMainWindow):
@@ -78,7 +79,7 @@ class MainWindow(QMainWindow):
         # self.meshdata = gl.MeshData(vertexes=self.points, faces=self.faces)
         # self.currentSTL = gl.GLMeshItem(meshdata=self.meshdata, smooth=True, drawFaces=True, drawEdges=True, edgeColor=(0, 0, 0, 1))
 
-        self.stl_model.set_all(stl_file_path=filename, view_widget=self.viewer)
+        self.stl_model.set_all(color=(1,0,0,1), stl_file_path=filename, view_widget=self.viewer, drawEdges=True)
         # self.viewer.addItem()
 
         # self.color_timer.start()
@@ -150,9 +151,17 @@ class MainWindow(QMainWindow):
         for trans_matrix in trans_matrices.values():
             coil_model.set_points_faces(coil_pos['P'], coil_pos['t']-1)
             coil_model.set_view_widget(self.viewer)
-            coil_model.create_mesh_data(drawEdges=False, color=(0.5, 0, 0.5, 1)) # R G B
+
+            ######### generate random
+            rgba = mapper(value=random.uniform(0, 1))
+
+            #########
+
+
+            coil_model.create_mesh_data(drawEdges=False, color=rgba) # R G B
+
             coil_model.transform(trans_matrix)
-            coil_model.scale(5, 5, 5, local=True)
+            coil_model.scale(10, 10, 10, local=True)
 
             coil_model.set_stl()
 
