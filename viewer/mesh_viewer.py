@@ -38,7 +38,7 @@ class MainWindow(QMainWindow):
         self.coil = STLModel()
 
         self.coil_stream_timer = QTimer()
-        self.inference_timer.setInterval(0.2)  # for 5 KHz refresh rate
+        # self.inference_timer.setInterval(0.2)  # for 5 KHz refresh rate
 
 
         self.emg_stream = QTimer()
@@ -79,7 +79,7 @@ class MainWindow(QMainWindow):
             self.lastDir = Path(fname[0]).parent
 
     def showSTL(self, filename):
-        self.stl_model.set_all(stl_file_path=filename, view_widget=self.viewer, drawEdges=True)
+        self.stl_model.set_all(color=(130/225, 129/225, 70/225, 1),stl_file_path=filename, view_widget=self.viewer, drawEdges=False)
 
     def load_coil(self):
         coil_mat = scipy.io.loadmat('../data/coil_positions/coil_mat.mat')
@@ -121,13 +121,17 @@ class MainWindow(QMainWindow):
         points, faces = loadSTL(filename='../stl_models/sphere_coil.stl')
         coil_model = STLModel()
         with open('../data/coil_positions/aapo_tms.pickle', 'rb') as fp:
-                trans_matrices = pickle.load(fp)
-        for trans_matrix in trans_matrices.values():
+            trans_matrices = pickle.load(fp)
+        with open('../data/evoked_response/aapo_evoked_responses.pickle', 'rb') as fp:
+            evoked_responses = pickle.load(fp)
+
+        for evoked_response, trans_matrix in zip(evoked_responses, trans_matrices.values()):
             coil_model.set_points_faces(coil_pos['P'], coil_pos['t']-1)
             coil_model.set_view_widget(self.viewer)
 
             ######### generate random
-            rgba = mapper(value=random.uniform(0, 1))
+            pick_range = evoked_response['evoked_response'][:, 200:300]
+            rgba = mapper(value=np.max(pick_range)-np.min(pick_range), vmax=400, vmin=0)
             #########
             coil_model.create_mesh_data(drawEdges=False, color=rgba) # R G B
             coil_model.transform(trans_matrix, local=False)

@@ -40,7 +40,7 @@ class STLModel:
         self.mesh_data = gl.MeshData(vertexes=self.points, faces=self.faces)
         self.stl_model = gl.GLMeshItem(meshdata=self.mesh_data, color=color, smooth=smooth, drawFaces=drawFaces,
                                        drawEdges=drawEdges,
-                                       edgeColor=edgeColor)
+                                       edgeColor=edgeColor, shader='shaded')
         # 'color': (1., 1., 1., 1.),
         # 'drawEdges': False,
         # 'drawFaces': True,
